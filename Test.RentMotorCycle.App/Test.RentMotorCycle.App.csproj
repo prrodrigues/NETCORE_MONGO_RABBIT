@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <EnableNETAnalyzers>False</EnableNETAnalyzers>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    <AnalysisLevel>none</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.RentMotorCycles.Domain\Test.RentMotorCycles.Domain.csproj" />
+    <ProjectReference Include="..\Test.RentMotorCycles.Infrastructure\Test.RentMotorCycles.Infrastructure.csproj" />
+    <ProjectReference Include="..\Test.RentMotorCycles.Service\Test.RentMotorCycles.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@Teste.RentMotorCycle.Api_HostAddress = http://localhost:5042
+
+GET {{Teste.RentMotorCycle.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
